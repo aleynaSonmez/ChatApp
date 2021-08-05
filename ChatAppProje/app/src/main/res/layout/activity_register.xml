@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <include layout="@layout/actionbar_app"
+        android:id="@+id/actionbarRegister"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_below="@id/actionbarRegister"
+        android:padding="10dp"
+        >
+        <TextView
+            android:id="@+id/txtinfoi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hesap_olu_tur"
+            android:layout_marginTop="35dp"
+            android:textSize="20sp"
+            android:layout_marginStart="4dp"
+            />
+
+        <EditText
+            android:id="@+id/usernameRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/kullan_c_ad"
+            android:layout_marginTop="10dp"
+            />
+        <EditText
+            android:id="@+id/emailRegister"
+            android:inputType="textEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/mail_giriniz"
+            android:layout_marginTop="10dp"
+            />
+        <EditText
+            android:id="@+id/txtpasswordRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/parola"
+            android:inputType="textPassword"
+            android:layout_marginTop="10dp"
+            />
+        <Button
+
+            android:id="@+id/btnRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="@string/hesap_olu_tur"
+            android:background="@drawable/corner5"
+            android:textSize="20sp"
+            android:textColor="@color/colorWhite"
+            />
+        <Button
+            android:id="@+id/btnLoginRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/hesab_n_zla_giri_yap_n_z"
+            android:background="@drawable/corner5"
+            android:textSize="20sp"
+            android:textColor="@color/colorWhite"
+            />
+
+
+    </LinearLayout>
+</RelativeLayout>

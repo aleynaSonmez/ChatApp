@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WelcomeActivity"
+    android:background="@color/colorkoyuM"
+    android:padding="20dp"
+    >
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/circularimageview"
+        android:src="@drawable/star"
+        android:background="@drawable/rounded_corners2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        app:civ_border_color="@color/colorBebekMavi"
+        app:civ_border_width="8dp"
+        />
+
+    <TextView
+        android:layout_marginTop="40dp"
+        android:id="@+id/txtWelcomeAppName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ho_geld_n_z"
+        android:textSize="30sp"
+        android:textStyle="normal"
+        android:textColor="@color/colorWhite"
+        android:layout_centerHorizontal="true"
+
+        />
+    <TextView
+        android:layout_below="@id/txtWelcomeAppName"
+        android:id="@+id/txtWelcomeAppName1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/whatsapp1"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:layout_centerHorizontal="true"
+        />
+    <Button
+
+        android:id="@+id/btnwelcomeRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_corners4"
+        android:text="@string/hesap_olu_tur"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/white"
+
+         />
+
+    <Button
+        android:id="@+id/btnwelcomeLogin"
+        android:layout_above="@+id/btnwelcomeRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hesab_m_var"
+        android:background="@drawable/rounded_corners3"
+        android:textColor="@android:color/white"
+
+        />
+
+</RelativeLayout>

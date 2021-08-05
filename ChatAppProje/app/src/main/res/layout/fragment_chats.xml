@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wppr"
+    tools:context=".ChatsFragment">
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/btn_msg"
+        android:background="@drawable/ic_action_name"/>
+    <Button
+        android:layout_below="@id/btn_msg"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/btn_arkadasekle"
+        android:background="@drawable/ic_baseline_add_24b"/>
+    <Button
+        android:layout_below="@+id/btn_arkadasekle"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/btn_arama"
+        android:background="@drawable/ic_baseline_add_ic_call_24"/>
+
+    <TextView
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/username"
+        android:layout_toEndOf="@id/btn_msg"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorBebekMavi"
+        android:text="@string/mesaj_gonder"
+        />
+    <TextView
+        android:textSize="20sp"
+        android:layout_below="@id/username"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/arkadasekle"
+    android:layout_toEndOf="@id/btn_msg"
+    android:layout_marginStart="30dp"
+    android:layout_marginTop="20dp"
+    android:textStyle="bold"
+    android:textColor="@color/colorBebekMavi"
+    android:text="@string/ki_i_ekle"
+    />
+    <EditText
+        android:textSize="20sp"
+         android:layout_below="@id/arkadasekle"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/arama"
+         android:textStyle="bold"
+         android:textColorHint="@color/colorBebekMavi"
+         android:layout_toEndOf="@id/btn_msg"
+         android:layout_marginStart="30dp"
+         android:layout_marginTop="20dp"
+         android:hint="@string/numara_giriniz"
+    />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">WhatsApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="giri_yap">Giriş Yap</string>
+    <string name="ifre">Şifre</string>
+    <string name="mail">Mail</string>
+    <string name="hesab_n_zla_giri_yap_n">Hesabınızla Giriş Yapın</string>
+    <string name="parola">Parola</string>
+    <string name="mail_giriniz">Mail Giriniz</string>
+    <string name="kullan_c_ad">Kullanıcı Adı</string>
+    <string name="hesap_olu_tur">Hesap Oluştur</string>
+    <string name="hesab_m_var">Hesabım Var</string>
+    <string name="mesajlar_ekran">Mesajlar Ekranı</string>
+    <string name="arkada_lar_ekran">Arkadaşlar Ekranı</string>
+    <string name="stekler_ekran">İstekler Ekranı</string>
+    <string name="logout">LogOut</string>
+    <string name="t_m_kullan_c_lar">Tüm Kullanıcılar</string>
+    <string name="hesab_n_zla_giri_yap_n_z">Hesabınızla Giriş Yapınız</string>
+    <string name="email">Email</string>
+    <string name="yeni_hesap_olu_tur">Yeni Hesap Oluştur</string>
+    <string name="sifre">Sifre</string>
+    <string name="type_a_message">Type a Message</string>
+    <string name="username1">Username</string>
+    <string name="mesaj_gonder">Mesaj Gonder</string>
+    <string name="sim">İsim</string>
+    <string name="arkadaslar">Arkadaslar</string>
+    <string name="numara">Numara</string>
+    <string name="ad">Ad</string>
+    <string name="add">ADD</string>
+
+    <string name="enter_number">Enter Number</string>
+    <string name="yeni_ki_i_ekle">Yeni Kişi Ekle</string>
+    <string name="arkada_lar">Arkadaşlar</string>
+    <string name="sec">SEÇ</string>
+    <string name="y_kle">YÜKLE</string>
+    <string name="whatsapp">WhatsApp</string>
+    <string name="kullan_c_ayarlar">Kullanıcı Ayarları</string>
+    <string name="geri_d_n">Geri Dön</string>
+    <string name="durumunu_g_ncelle">Durumunu Güncelle</string>
+    <string name="ad_n_g_ncelle">Adını Güncelle</string>
+    <string name="username">Username</string>
+    <string name="_06_01_2021">06.01.2021</string>
+    <string name="descriptions">Descriptions</string>
+    <string name="g_ncellemek_ya_da_silmek_stedi_iniz_sim">Güncellemek Ya da Silmek İstediğiniz İsim</string>
+    <string name="s_l">SİL</string>
+    <string name="g_ncelle">GÜNCELLE</string>
+    <string name="numara_giriniz">Numara Giriniz</string>
+    <string name="mesajgoster">MesajGoster</string>
+    <string name="deneme">DENEME</string>
+    <string name="merhaba">Merhaba</string>
+    <string name="_14_01_2021">14.01.2021</string>
+    <string name="mesaj_n_z_giriniz">Mesajınızı Giriniz</string>
+    <string name="numaran_z_giriniz">Numaranızı Giriniz</string>
+    <string name="sim_giriniz">İsim Giriniz</string>
+    <string name="numaray_giriniz">Numarayı Giriniz</string>
+    <string name="number">Number</string>
+    <string name="g_ncellenecek_smi_giriniz">Güncellenecek İsmi Giriniz</string>
+    <string name="g_ncellenecek_numaray_giriniz">Güncellenecek Numarayı Giriniz</string>
+    <string name="welcome">WELCOME</string>
+    <string name="whatsapp1">WhatsApp</string>
+    <string name="ho_geld_n_z">HOŞGELDİNİZ</string>
+    <string name="whatsapp2">WhatsApp</string>
+    <string name="ki_i_ekle">Kişi Ekle</string>
+    <string name="ki_i_ekle2">Kişi Ekle</string>
+    <string name="guncelisim">guncelisim</string>
+    <string name="guncelnumara">guncelnumara</string>
+    <string name="g_ncelle1">Güncelle</string>
+    <string name="ki_iyi_silmek_in_smin_zerine_t_klay_n_z">Kişiyi Silmek İçin İsmin Üzerine Tıklayınız.</string>
+
+
+</resources>

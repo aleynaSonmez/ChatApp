@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/splash"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:textAlignment="center"
+        android:layout_marginTop="210dp"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorWhite"
+        android:hint="@string/numaray_giriniz"
+        android:id="@+id/numara"
+        android:layout_width="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:textAlignment="center"
+        android:layout_centerInParent="true"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorWhite"
+        android:layout_marginBottom="10dp"
+        android:hint="@string/sim_giriniz"
+        android:layout_below="@id/numara"
+        android:id="@+id/isim"
+        android:layout_centerHorizontal="true"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_centerInParent="true"
+        android:background="@drawable/rounded_corners3"
+        android:id="@+id/yeniKisi"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/ki_i_ekle2"
+        android:layout_below="@id/isim"
+        android:layout_marginBottom="10dp"
+        />
+    <Button
+        android:layout_centerInParent="true"
+        android:background="@drawable/rounded_corners3"
+        android:layout_below="@+id/yeniKisi"
+        android:id="@+id/arkadaslar"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/arkada_lar"
+        />
+
+
+</RelativeLayout>
